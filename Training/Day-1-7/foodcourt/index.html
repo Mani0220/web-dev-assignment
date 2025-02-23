@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food court Application </title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-title">
+            <h1> Welcome to Food court</h1>
+            <p>Enjoy a wide variety of food from different stalls all in one place.</p>
+            <p> Enjoy our soothing music</p>
+
+            <audio controls>
+                <source src="welcome-64347.mp3" type="audio/mp3">
+                <audio autoplay controls></audio>
+            </audio>
+
+
+            </audio>
+        </div>
+
+        <div>
+            <nav>
+                <a href="javascript:void(0);">About Us</a>
+                <a href="javascript:void(0);">Contact Us</a>
+            </nav>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for food" />
+        </div>
+
+    </header>
+
+    <div class="menu">
+        <div class="item">
+
+            <img src="img/Pizza (2).jpg" width="200px" />
+            <h3>Delicious Pizza</h3>
+            <div class="description">
+                <h1> Pizza </h1>
+              
+               
+                <p>Rs. 150</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/Pasta.jpg" width="200px" />
+            <h3>Delicious Pasta</h3>
+            <div class="description">
+                <h1> Pasta </h1>
+                <p> Rs.90 </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/sandwhich.jpg" width="200px" />
+            <h3>Delicious Sandwich</h3>
+            <div class="description">
+                <h1> Sandwich</h1>
+                <p> Rs.100 </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="img/donuts-4196093_1280.jpg" width="200px" />
+            <div class="description">
+                <h1> Donuts</h1>
+                <p> Rs. 200 </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

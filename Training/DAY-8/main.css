@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://www.google.com/imgres?q=night%20background%20colour%20for%20website%20&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fclip-art-mysterious-night-sky-260nw-2331620661.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fnight-sky-colors&docid=B7EORHVPPzBCiM&tbnid=h-3IB_et9idPYM&vet=12ahUKEwjQ1MT4yNGLAxUixzgGHUBQKUQQM3oECG8QAA..i&w=502&h=280&hcb=2&ved=2ahUKEwjQ1MT4yNGLAxUixzgGHUBQKUQQM3oECG8QAA);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(238, 117, 47);
+    height: 90vh;
+}
+
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 10px solid white;
+    border: radius 10px;
+    color: white;
+    font-size: 100px;
+}

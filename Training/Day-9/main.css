@@ -1,0 +1,32 @@
+body{
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(23, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(130, 138, 63);
+    border-radius: 10px;
+    justify-content: center;
+}
+h1, p{
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding:10px;
+    color:black;
+}
+button{
+    margin:10px;
+    padding : 10px;
+    cursor: pointer;
+}

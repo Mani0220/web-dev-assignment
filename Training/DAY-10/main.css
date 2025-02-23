@@ -1,0 +1,38 @@
+
+body{
+        background-color: orange;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 0px;
+
+}
+.container{ 
+
+        padding: 20px;
+        border-radius: 10px;
+        
+}
+
+button{ 
+        background-color: green;
+        padding: 10px 20px;
+        color:purple;
+        border-radius: 5px;
+        width: 80px;
+
+
+}
+
+button:hover{
+            background-color:rgb(10, 236, 187);
+}
+
+input{
+        width: 100px;
+        padding: 10px;
+        margin: 10px 0 ;
+
+}
+
+
+

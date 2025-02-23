@@ -1,0 +1,29 @@
+.menu{
+      display: flex;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: hsl(23, 22%, 88%);
+    margin: 0px;
+    padding: 0px;
+    border-style: inset;
+}
+
+header{
+    padding: 10px;
+    color: rgb(66, 226, 241);
+    margin: 15px;
+    text-align: center;
+
+}
+
+.item{
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    margin: 15px;
+    border-radius: 100px;
+    box-shadow: inset;
+
+}

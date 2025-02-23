@@ -1,0 +1,21 @@
+practicemain.css
+.menu{
+    display: flex;
+}
+
+
+body{
+    background-color: #0fd6cc;
+    margin: 10px;
+    padding: 10px;
+}
+
+    
+
+.item{
+text-align: center;
+}
+
+header{ background-color: antiquewhite;
+
+}
