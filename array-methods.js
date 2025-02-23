@@ -27,3 +27,6 @@ console.log(colors);
 // in place modification
 colors.splice(1, 1, "yellow")
 console.log(colors);
+
+// slice
+console.log(colors.slice(1, 2));
