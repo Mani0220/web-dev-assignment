@@ -67,7 +67,11 @@
         }
 
         function decrease() {
-            count--;
+            if (count <= 0) {
+                count = 0;
+            } else {
+                count--;
+            }
             updateCount();
         }
 
