@@ -23,3 +23,4 @@ function reset() {
     count = 0;
     updateCount();
 }
+
